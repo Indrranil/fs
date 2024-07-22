@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+#projects {
+    background-color: aqua;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid-black;
+}
+
+u1.projects {
+    list-style-type: none;
+}
+u1.projects li {
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}

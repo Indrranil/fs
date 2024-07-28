@@ -12,7 +12,16 @@
     <body>
         <header>
             <h1><em>Indrranil Pawar</em></h1>
-            <img src="dodo.jpeg" alt="Indrranil Pawar" />
+            <div class="profile-container">
+                <img
+                    src="dodo.jpeg"
+                    alt="Indrranil Pawar"
+                    id="profilePicture"
+                />
+                <div id="profileInfo">
+                    <p><strong> +1000000 AURA </strong></p>
+                </div>
+            </div>
             <p><strong>Developer at CNCF</strong></p>
             <nav>
                 <ul>
@@ -100,7 +109,26 @@
             </ul>
         </section>
 
-        <!-- -- <section id="info-table">
+        <section>
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required /><br /><br />
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                /><br /><br />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea
+                ><br /><br />
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="info-table">
             <h2><em>Information Table</em></h2>
             <table border="1" style="width: 100%">
                 <tr>
@@ -125,12 +153,12 @@
                 </tr>
             </table>
         </section>
--->
+
         <footer>
             <p>&copy; 2024 Indrranil Pawar. All rights reserved.</p>
         </footer>
 
-        <!-- Add JavaScript file if needed -->
-        <!-- <script src="scripts.js" async defer></script> -->
+        <!-- Add JavaScript file -->
+        <script src="script.js" async defer></script>
     </body>
 </html>

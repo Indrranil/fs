@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -121,4 +120,34 @@ footer {
 
 footer p {
     margin: 0;
+}
+/* Add this to your existing styles.css */
+
+#profilePicture {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+#profilePicture:hover {
+    transform: scale(1.2);
+}
+
+#profileInfo {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.profile-container {
+    position: relative;
+    display: inline-block;
 }

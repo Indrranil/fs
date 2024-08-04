@@ -4,4 +4,5 @@ module.exports = {
     baseDir: "./",
   },
   ui: false,
+  notify: false,
 };

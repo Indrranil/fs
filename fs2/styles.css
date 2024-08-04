@@ -121,8 +121,8 @@ footer {
 footer p {
     margin: 0;
 }
-/* Add this to your existing styles.css */
 
+/* Add this to your existing styles.css */
 #profilePicture {
     width: 150px;
     height: 150px;
@@ -140,7 +140,6 @@ footer p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -150,4 +149,9 @@ footer p {
 .profile-container {
     position: relative;
     display: inline-block;
+}
+
+.faded {
+    color: rgba(255, 255, 255, 0.2); /* Light color with opacity */
+    font-weight: bold;
 }

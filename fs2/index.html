@@ -114,6 +114,10 @@
             <form id="contactForm">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required /><br /><br />
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" /><br /><br />
+
                 <label for="email">Email:</label>
                 <input
                     type="email"
@@ -121,12 +125,27 @@
                     name="email"
                     required
                 /><br /><br />
+
+                <label for="department">Department:</label>
+                <input
+                    type="text"
+                    id="department"
+                    name="department"
+                /><br /><br />
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea
                 ><br /><br />
+
                 <button type="submit">Submit</button>
             </form>
         </section>
+
+        <div id="textParent">Parent Node:</div>
+        <button id="addTextButton">Add Text Node</button>
+
+        <div id="nodeToDelete">This node will be deleted.</div>
+        <button id="deleteNodeButton">Delete Node</button>
 
         <section id="info-table">
             <h2><em>Information Table</em></h2>
@@ -135,21 +154,29 @@
                     <th>Name</th>
                     <th>Role</th>
                     <th>Company</th>
+                    <th>Phone</th>
+                    <th>Department</th>
                 </tr>
                 <tr>
                     <td>Indrranil Pawar</td>
                     <td>Developer</td>
                     <td>CNCF</td>
+                    <td>+1234567890</td>
+                    <td>Engineering</td>
                 </tr>
                 <tr>
                     <td>Jane Doe</td>
                     <td>Project Manager</td>
                     <td>ABC Corp</td>
+                    <td>+0987654321</td>
+                    <td>Management</td>
                 </tr>
                 <tr>
                     <td>John Smith</td>
                     <td>Designer</td>
                     <td>XYZ Ltd</td>
+                    <td>+1122334455</td>
+                    <td>Design</td>
                 </tr>
             </table>
         </section>
